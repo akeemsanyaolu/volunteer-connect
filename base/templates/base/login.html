@@ -1,3 +1,5 @@
 <form method="post">
+    {% csrf_token %}
     {{form.asp}}
+    <input type="submit">
 </form>
